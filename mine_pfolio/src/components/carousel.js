@@ -1,40 +1,40 @@
 import Carousel from 'react-bootstrap/Carousel';
-
+import './mainScreen.css'; 
 function DarkVariantExample() {
   return (
-    <Carousel >
-      <Carousel.Item>
+    <Carousel  >
+      <Carousel.Item >
         <img
-          className="d-block w-100"
+          className="imageStyle d-block w-100 imageStyle"
           src='/assets/images/car1.jpg'
           alt="First slide"
         />
         <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5>Web Developmeny</h5>
+          <p>Web development using Node.js,React,HTML,CSS,Mongo,Express</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="/assets/images/car2.jpeg"
+          className="imageStyle d-block w-100 "
+          src="/assets/images/carr3.jpeg"
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5>Mobile Application Development</h5>
+          <p>Mobile Application developement using Flutter and React Native</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="/assets/images/car3.jpg"
+          className="imageStyle d-block w-100 "
+          src="/assets/images/carr2.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h5>Third slide label</h5>
+          <h5>Game Development</h5>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Game Developemnt using Unity Engine
           </p>
         </Carousel.Caption>
       </Carousel.Item>

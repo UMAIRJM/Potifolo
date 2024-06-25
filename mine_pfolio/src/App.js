@@ -1,8 +1,8 @@
 import MainScreen from "./MainScreen";
-
+import './components/mainScreen.css';
 function App() {
   return (
-    <div >
+    <div className="htmlDiv">
       <MainScreen/>
     </div>
   );

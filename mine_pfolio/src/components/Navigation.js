@@ -5,7 +5,7 @@ import { FaInstagram, FaFacebook, FaTwitter, FaGithub } from 'react-icons/fa';
 function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg" className="custom-navbar" data-bs-theme="dark">
-      <Container>
+      <Container> 
         <Navbar.Brand href="#home" className='textColor'>Umair's Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
