@@ -1,0 +1,35 @@
+.main-div {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+  }
+  
+  @media (max-width: 760px) {
+    .main-div {
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+  }
+
+
+
+  .textColor{
+    color: white;
+  }
+
+
+
+  .custom-navbar .navbar-toggler-icon {
+    color: white !important; /* Important to override Bootstrap styles */
+  }
+
+  #responsive-navbar-nav{
+    color: white;
+  }
+
+
+  .carouselDesign{
+    
+    margin-top: 5%;
+  }
+  
