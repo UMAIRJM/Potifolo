@@ -1,6 +1,6 @@
 .main-div {
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
     background-color: gray;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
@@ -12,15 +12,152 @@
     align-items: center;
     gap: 15px;
     padding: 5%;
-    background-image: linear-gradient(gray, black, gray); 
+    background-image: linear-gradient(gray, rgb(108, 104, 148), gray); 
   }
 .imageStyle{
     width: 100px;
-    height: 400px;
+    height: 600px;
     border-radius: 5%;
+    
   }
+.navigationStyle{
+    position: sticky;
+    top: 0px;
+    z-index: 5px;
+    background-color: rgb(39, 39, 39);
+  }
+.projectsDesign{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+
+  }
+  .child {
+    flex: 1 0 calc(33.33% - 10px); /* Each child takes up 33.33% of the parent width minus margins */
+    margin: 5px; /* Adjust margin as needed */
+    text-align: center; /* Center content within each child */
+    border: 1px solid #ccc; /* Example border for visualization */
+  }
+  .future{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .laptopSty{
+    height: 400px;
+    width: auto;
+    border-radius: 20%;
+  }
+  .videoDiv{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image: linear-gradient(gray, rgb(70, 48, 48), gray); 
+
+  }
+  .childVideo{
+    flex: 0 0 calc(50% -10px);
+    margin: 5px;
+    border: 2px solid black;
+    border-width: 0.5px;
+    border-radius: 5%;
+    padding: 1%;
+    
+
+  }
+  .aboutMeMain{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    background-image: linear-gradient(gray, rgb(10, 9, 9), gray); 
+    
+  }
+  .aboutMeInner{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .aboutMeChildren1{
+    flex: 6;
+    background-image: linear-gradient(gray, rgb(10, 9, 9), gray); 
+    border-radius: 5%;
+    padding: 1%;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutMeChildren2{
+    flex: 4;
+    background-image: linear-gradient(gray, rgb(10, 9, 9), gray); 
+    border-radius: 5%;
+    padding: 1%;
+  }
+  .inTouch{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(109, 107, 107), rgb(241, 222, 222), gray); 
+  }
+  .intouchInner{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+   
+  }
+  .inputFieldsAlign{
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+  }
+  .inputChild{
+    flex: 1 0 calc(50% -10px);
+  }
+  
 
 @media (max-width: 760px) {
+  .intouchInner{
+    flex-direction: column;
+    
+  }
+  .aboutMeInner{
+    flex-direction: column;
+    
+    
+  }
+  .laptopSty{
+    height: 200px;
+  }
+  .future{
+    flex-direction: column;
+    padding: 5%;
+
+  }
+  .navigationStyle
+  {
+    position: relative;
+
+  }
   .imageStyle{
     height: 200px;
   }
@@ -53,17 +190,19 @@
 
 
   .carouselDesign{
-    background-image: linear-gradient(gray, black, gray); 
+    background-image: linear-gradient(gray, rgb(22, 32, 58), gray); 
     padding: 5%;
     margin-top: 5%;
     border-radius: 10%;
   }
   
 
-  
+  .textColor{
+    color: white;
+  }
 
   .introStyle{
-    background-image: linear-gradient(gray, black, gray); 
+    background-image: linear-gradient(gray, rgb(78, 71, 71), gray); 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,3 +223,44 @@
 .htmlDiv{
   background-color: rgb(51, 51, 51);
 }
+
+.projectsStyle{
+  background-image: linear-gradient(gray, rgb(32, 65, 47), gray); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  gap: 8px;
+}
+
+
+.textField{
+  color: black;
+  border-color: black;
+  width: 100px;
+}
+.intouchImage{
+  
+  border-radius: 5%;
+  box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
+}
+.messgaeInput{
+  width: 100px;
+}
+.closingDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+
+
+
+
+
+
+
+

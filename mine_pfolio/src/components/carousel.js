@@ -6,7 +6,7 @@ function DarkVariantExample() {
       <Carousel.Item >
         <img
           className="imageStyle d-block w-100 imageStyle"
-          src='/assets/images/car1.jpg'
+          src='/assets/images/webLight4.png'
           alt="First slide"
         />
         <Carousel.Caption>
