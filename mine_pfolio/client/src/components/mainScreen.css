@@ -192,7 +192,7 @@
   .carouselDesign{
     background-image: linear-gradient(gray, rgb(22, 32, 58), gray); 
     padding: 5%;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     border-radius: 10%;
   }
   

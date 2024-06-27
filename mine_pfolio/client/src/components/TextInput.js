@@ -3,7 +3,12 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import './mainScreen.css';
 
-export default function BasicTextFields({labeel}) {
+export default function BasicTextFields({labeel ,userInput,setUserInput}) {
+  function textInputHandle(useInput){
+    setUserInput(useInput.target.value);
+    
+
+  }
   return (
     <Box
       component="form"
@@ -13,7 +18,7 @@ export default function BasicTextFields({labeel}) {
       noValidate
       autoComplete="off"
     >
-      <TextField id="outlined-basic" label={labeel} variant="outlined" className='textField' style={{ width: '100%' }}  />
+      <TextField id="outlined-basic" label={labeel} variant="outlined" className='textField' style={{ width: '100%' }}  onChange={textInputHandle}/>
       
     </Box>
   );
